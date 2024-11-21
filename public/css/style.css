@@ -1,64 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
     font-size: 12pt;
+    color: rgb(74, 0, 0);
 }
-
-p {
-    color: red;
-}
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
-main, header, footer, nav ul {
-    max-width: 40rem;
-    margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
-}
-
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
 
 header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
-    overflow: hidden;
+    position: relative; /* För att kunna positionera texten över bilden */
     width: 100%;
-    height: 200px;
-    opacity: 0.5;
+    height: 200px; /* Höjden på headern */
+    overflow: hidden; /* Döljer allt utanför headern */
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ser till att bilden täcker headern utan att förvrängas */
+    position: absolute; /* Gör bilden till ett bakgrundselement */
+    top: 0;
+    left: 0;
+    opacity: 0.8; /* Gör bilden delvis transparent */
 }
 
 header h1 {
-    width:40rem;
-    margin: 0 auto;
+    position: relative; /* Behåll texten ovanpå bilden */
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant', serif;
+    font-size: 36pt;
     text-align: center;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
+    z-index: 1; /* Se till att texten ligger ovanför bilden */
+    margin: 0;
     padding: 0;
+    line-height: 200px; /* Vertikal centrering av texten */
+    text-shadow: 2px 2px 4px rgba(92, 0, 0, 0.7); /* Gör texten mer läsbar */
 }
 
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
+#burger-section {
+    color: #ffffff;
+    background-color: black;
 }
 
-.Very-good {
-    color: green;
+.wrapper {
+    display: grid;
+    grid-gap: 20px; /* Mellanrum mellan grid-elementen */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Dynamisk layout */
+    padding: 10px; /* Utrymme runt wrapper */
 }
 
-.Master {
-    color: green;
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1em;
+}
+
+
+#order-info{
+    background-color: rgb(255, 255, 255);
+
+}
+ 
+ #allergies {
     font-weight: bold;
+ }
+
+button:hover{
+    background-color: rgb(34, 125, 54);
+    margin-bottom: 20px;
+    cursor: pointer;
 }
+
+section{
+    margin-bottom: 20px;
+    border: 5px solid rgb(167, 80, 80);
+    border-radius: 15px;
+    padding: 20px;
+}
+
