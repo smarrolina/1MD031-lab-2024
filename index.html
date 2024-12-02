@@ -1,105 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-       <title>Best burgers in town</title>
-       <meta charset="utf-8"/>
-       <link rel="stylesheet" href="public/css/style.css">
-   </head>
-   <body>
-        <header>
-            <h1>Best Burgers In Town</h1>
-            <img src="https://thatsup.website/storage/275/20463/_DSF0014.jpg?v=1687783191" alt="Header Image">
-        </header>
-    
-        <main>
-            <!-- Burger Section -->
-            <section id="burger-section">
-                <h3>Find your perfect burger</h3>
-                <p>Looking for the ultimate burger experience?
-                    <br /> Our menu offers a variety of mouthwatering options, 
-                    each crafted with the freshest ingredients and unique flavors. 
-                </p>
-                <div class="wrapper">
-                    <div class="box" style="display: inline-block; width: 250px; vertical-align: top; margin: 10px;">          
-                        <h4>1. Truffle Dream</h4>
-                        <img src="https://i.pinimg.com/originals/b8/b2/2b/b8b22bb57bd8550ad59a1b63b9f81d44.png" 
-                        alt="Truffle Dream" style="width: 200px; height: 170px; object-fit: cover">
-                        <ul>
-                            <li>Juicy beef patty (<span id="allergies">meat</span>)</li>
-                            <li>Creamy truffle aioli (<span id="allergies">lactose</span>)</li>
-                            <li>Golden brioche bread (<span id="allergies">gluten</span>)</li>
-                        </ul>
-                    </div>
-                    <div class="box" style="display: inline-block; width: 250px; vertical-align: top; margin: 10px;">
-                        <h4>2. Hello Halloumi</h4>
-                        <img src="https://spisbedre-production-app.imgix.net/images/recipes/halloumi-burger-med-aubergine_11440.jpg" 
-                        alt="Hello Halloumi" style="width: 200px; height: 170px; object-fit: cover">
-                        <ul>
-                            <li>Crispy halloumi patty (<span id="allergies">lactose</span>)</li>
-                            <li>Ajvar sauce (<span id="allergies">spicy</span>)</li>
-                            <li>Golden brioche bread (<span id="allergies">gluten</span>)</li>
-                        </ul>
-                    </div>
-                    <div class="box" style="display: inline-block; width: 250px; vertical-align: top; margin: 10px;"> 
-                        <h4>3. Chickcess</h4>
-                        <img src="https://shared.cdn.smp.schibsted.com/v2/images/3b3f3422-6303-401b-9a2c-61156e0a3996?fit=crop&h=750&w=1000&s=98eb069a4369c265fff88837f2642e60497d2816" 
-                        alt="Chickcess" style="width: 200px; height: 170px; object-fit: cover;">
-                        <ul>
-                            <li>Crispy chicken patty (<span id="allergies">bird</span>)</li>
-                            <li>Honey mustard coleslaw</li>
-                            <li>Golden brioche bread (<span id="allergies">gluten</span>)</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Order Info Section -->
-            <section id="order-info">
-                <h3>Customer Information</h3>
-                <form>
-                    <p>
-                        <label for="firstlastname">Full Name</label><br>
-                        <input type="text" id="firstlastname" name="fn" required="required" placeholder="First and Last name">
-                    </p>
-                    <p>
-                        <label for="email">E-mail</label><br>
-                        <input type="text" id="email" name="em" required="required" placeholder="E-mail address">
-                    </p>
-                    <p>
-                        <label for="street">Street</label><br>
-                        <input type="text" id="street" name="ln" placeholder="Street/Address">
-                    </p>
-                    <p>
-                        <label for="phone">Phone Number</label><br>
-                        <input type="tel" id="phone" name="phone" required="required" placeholder="Phone Number">
-                    </p>
-                    <p>
-                        <label for="payment">Payment Options</label><br>
-                        <select id="payment" name="payment">
-                            <option>Card</option>
-                            <option>Credit</option>
-                            <option>Check</option>
-                            <option>Klarna</option>
-                            <option>Invoice</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label>Gender</label><br>
-                        <input type="radio" id="male" name="gender" value="male" checked />
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="female" name="gender" value="female" />
-                        <label for="female">Female</label><br>
-                        <input type="radio" id="nogender" name="gender" value="nogender" />
-                        <label for="nogender">Do not wish to provide</label>
-                    </p>
-                    <button type="submit">
-                        <img src="https://cdn-icons-png.flaticon.com/512/5278/5278682.png" style="width: 22px; height: 22px;">
-                        Place my order
-                    </button>
-                </form>
-            </section>
-        </main>
-        <footer>
-        </footer>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

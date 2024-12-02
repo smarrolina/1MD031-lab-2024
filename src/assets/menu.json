@@ -1,21 +1,27 @@
-[{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+[
+    {
+      "name": "Truffle Dream",
+      "kCal": 420,
+      "containsGluten": true,
+      "containsLactose": true,
+      "imageUrl": "https://i.pinimg.com/originals/b8/b2/2b/b8b22bb57bd8550ad59a1b63b9f81d44.png"
+    },
+    {
+        "name": "Hello Halloumi",
+        "kCal": 350,
+        "containsGluten": true,
+        "containsLactose": true,
+        "imageUrl": "https://spisbedre-production-app.imgix.net/images/recipes/halloumi-burger-med-aubergine_11440.jpg"
+      },
+      {
+        "name": "Chickcess",
+        "kCal": 500,
+        "containsGluten": true,
+        "containsLactose": false,
+        "imageUrl": "https://shared.cdn.smp.schibsted.com/v2/images/3b3f3422-6303-401b-9a2c-61156e0a3996?fit=crop&h=750&w=1000&s=98eb069a4369c265fff88837f2642e60497d2816"
+      }
+]
+
+
+
+  
